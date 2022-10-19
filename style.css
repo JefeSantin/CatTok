@@ -1,0 +1,85 @@
+html{
+    scroll-snap-type: y mandatory;
+}
+#ads {
+    max-width: 500px;
+    max-height: 500px;
+}
+body {
+    color: white;
+    background-color: rgba(217, 48, 48, 0.316);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.aplicativo_fotos {
+    align-items: center;
+    position:relative ;
+    width: 530px;
+    height: 600px;
+    background-color:rgb(0, 0, 0);
+    border-radius: 20px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+#gato_foto {
+    text-align: center;
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.img-funcoes {
+    width: 50px;
+    margin-left: 0px;
+
+}
+
+.barra_de_rolagem{
+    position: absolute;
+    top:25%;
+    right: 10px;
+    left: 10px;
+}
+#funcoes_botoes li{
+    color: transparent;
+}
+
+
+
+#mostrar_likes li{
+    color: transparent;
+    
+}
+.foto_footer {
+    position: relative;
+    bottom: 900px;
+    margin-left: 20px;
+    color: white;
+    display: flex;
+}
+
+.footer_text{
+    flex: 1;
+}
+.footer_text{
+    width: 25px;
+    margin-top: 300px;
+}
+
+.descricao_foto{
+    font-size: 30px;
+}
+
+#rodape {
+    color: black;
+    background-color: beige;
+    text-align: center;
+}
+
+#rodape h2 {
+    text-decoration: underline;
+    margin-top: 25px;
+}
