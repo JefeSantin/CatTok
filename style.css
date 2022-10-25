@@ -1,13 +1,15 @@
 html{
     scroll-snap-type: y mandatory;
 }
+
 #ads {
     max-width: 500px;
     max-height: 500px;
 }
+
 body {
     color: white;
-    background-color: rgba(217, 48, 48, 0.316);
+    background-color: rgba(0, 0, 0, 0);
     height: 100vh;
     display: grid;
     place-items: center;
@@ -18,7 +20,7 @@ body {
     position:relative ;
     width: 530px;
     height: 600px;
-    background-color:rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
     border-radius: 20px;
     margin-bottom: 50px;
     margin-top: 20px;
@@ -43,11 +45,10 @@ body {
     right: 10px;
     left: 10px;
 }
+
 #funcoes_botoes li{
     color: transparent;
 }
-
-
 
 #mostrar_likes li{
     color: transparent;
@@ -64,6 +65,7 @@ body {
 .footer_text{
     flex: 1;
 }
+
 .footer_text{
     width: 25px;
     margin-top: 300px;
@@ -82,4 +84,11 @@ body {
 #rodape h2 {
     text-decoration: underline;
     margin-top: 25px;
+}
+#detalhes {
+    background-color: rgba(119, 117, 117, 0.301);
+    border-radius: 15px;
+}
+#temperamento_raca {
+    font-size: small;
 }
